@@ -1,0 +1,623 @@
+*{  
+  box-sizing: border-box;  
+}  
+
+body{  
+    margin: 0;  
+    padding: 0;  
+    background-color: #dbdbdb;  
+    font-family: 'Oxygen', sans-serif; 
+}  
+
+@media only screen and (max-width:620px) { 
+  #container  { 
+    width:100%; 
+  } 
+} 
+ 
+#container{ 
+    width: 80%; 
+    margin: auto; 
+    height:auto;             
+} 
+ 
+@media only screen and (max-width:620px) { 
+  #container  { 
+   width:100%;    
+  } 
+} 
+
+header{ 
+    width: 100%; 
+    height: 25%px; 
+    box-shadow: 0 2px 8px 2px rgba(20 23 28 .15);  
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px; 
+    margin-bottom: 0px;  
+} 
+
+#headerresim{  
+    width: 100%;  
+    height: 250px;  
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;  
+   
+} 
+ 
+@media only screen and (max-width:620px) { 
+  #headerresim  { 
+    width:100%; 
+    height: 100px;  
+      
+  } 
+} 
+
+section{  
+    width: 100%;  
+    height: auto;  
+    background-color: #f1f1f1;  
+    border-top-left-radius: 1%;  
+    border-top-right-radius:1%;  
+    box-shadow: 0 2px 8px 2px rgba(20 23 28 .15);  
+    margin-top: 1%;  
+    overflow: auto;  
+}  
+
+nav{  
+    width: 100%;  
+    height: auto;  
+    float:left;  
+    margin-top: 0.5%;   
+}  
+ 
+
+@media screen and (max-width:1250px) { 
+    nav { 
+    width:80%; 
+    text-align: center;
+    } 
+} 
+
+nav ul{  
+    width: 100%;  
+    height: 100px;  
+    margin: 0;  
+    padding: 0;  
+
+}  
+
+nav li{  
+    list-style-type: none;  
+    float: left;  
+    margin-left: 40px;  
+    margin-right: 35px;
+}  
+  
+@media screen and (max-width:1250px) { 
+  nav li {  
+    text-align: center;
+      width: 100%;
+      
+    } 
+} 
+ 
+@media screen and (max-width:620px) { 
+  nav li {  
+    text-align: center;
+      width: 100%;
+      
+    } 
+} 
+
+nav li a{  
+    line-height: 50px;  
+    text-decoration: none;  
+    color: black;  
+    border-bottom: 1px solid #b4b4b4;   
+    padding-left: 10px;  
+    padding-right: 10px;
+    display:block;  
+    width: 100%; 
+
+}  
+ 
+nav li a:hover{  
+    color: white;  
+    background-color: #adadad;  
+  
+}  
+
+@media screen and (max-width:1250px) { 
+  li { 
+    width:100%; 
+
+    } 
+} 
+
+main{  
+    height: auto;  
+    width: 100%;  
+    padding: 10px;   
+}  
+
+.içerik{   
+    width: 100%;   
+    height: auto;   
+    display: inline-block;   
+    margin-bottom: 50px;  
+}   
+  
+.rsm{   
+    width: 70%;   
+    height: auto;  
+    border-radius: 10px;   
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);  
+    margin-left: 15%; 
+    margin-right: 15%; 
+    transition: opacity 0.8s;  
+    margin-bottom: 10px;  
+}   
+
+@media screen and (max-width:1800px) { 
+  .rsm { 
+    margin-top: 10px; 
+
+    } 
+} 
+
+  
+.rsm:hover{   
+    opacity: 0.6;   
+}   
+
+.rsm8{  
+    width: 40%;  
+    border-radius: 10px;   
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);  
+    margin-left: 10%;   
+    margin-top: 15px;  
+    transition: opacity 0.8s ;  
+    float: left;  
+    margin-bottom: 5px;    
+}  
+
+
+.rsm8:hover{  
+    opacity: 0.6;      
+}  
+
+  
+
+h2{  
+   padding: 10px 10px 20px 30px;  
+   text-align: center;  
+   font-size: 5vw;  
+
+}  
+  
+.içeriktext{  
+    margin: 1%;  
+    padding: 1%;   
+    padding: 1% 1% 1% 1%;  
+    text-align: center;  
+    font-size: 17px;  
+    text-indent: 30px;  
+
+}  
+
+footer{  
+    width: 100%;  
+    height: 50px;  
+    background-color: black;  
+    color: white;  
+    line-height: 50px;   
+    text-align: center;  
+    border-radius: 15px;   
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);  
+    margin-bottom: 20px;   
+    font-size: 1.7vw; 
+
+}  
+
+#social{  
+    background-color: black;  
+    color: white;  
+    height: 50px;  
+    width: 100%;  
+    position: sticky;  
+    bottom: 0;  
+    z-index: 1;  
+    font-size: 18px;  
+    text-align: right;  
+    padding: 15px;  
+
+}  
+  
+font{  
+    float: left;  
+    letter-spacing: 2px; 
+    font-size: 2vw; 
+
+}  
+  
+span{  
+    font-size: 1.5vw;  
+    letter-spacing: 1px;  
+}  
+
+#social>i{  
+    margin-right: 1%;  
+}  
+
+/*-------HİZMETLER---*/ 
+
+.içerik2{  
+    width: 47%;  
+    height: auto;  
+    display: inline-block;  
+      
+    border-radius: 20px;  
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);  
+    padding: 8px;   
+    margin-top: 10px; 
+}  
+
+@media only screen and (max-width:620px) { 
+.içerik2{ 
+    width:100%; 
+
+    } 
+
+} 
+
+.rsm2{  
+    width: 100%;  
+    border-top-left-radius: 10px;  
+    border-top-right-radius: 10px;  
+    transition: 0.8s;      
+}  
+
+.rsm2:hover{  
+    opacity: 0.6;  
+}  
+
+.baslık{  
+    margin: 10px;  
+    font-style: oblique ;  
+    font-size: 17px;  
+    font-family: calibri;  
+}  
+
+.texthiz{  
+    margin: 10px;  
+    color: dimgray;  
+    text-indent: 20px;  
+    font-family: calibri; 
+}  
+
+.btndevam:link{  
+    display: block;  
+    width: 150px;  
+    height: 45px;  
+    padding: 10px 20px;  
+    background-color:peachpuff; 
+    color: darkslateblue;  
+    text-decoration: none;  
+    font-size: 15px;  
+    margin: 15px;  
+    border-radius: 10px;  
+} 
+
+.btndevam:hover{  
+    opacity: 0.8;  
+    color:black; 
+}  
+ 
+h1{ 
+    text-align: center; 
+    line-height: 50px;
+}  
+@media only screen and (max-width:1250px) {
+  h1 { 
+     margin-top: 270px; 
+      text-align: center;
+  } 
+} 
+
+
+/*-----kurumsalll---*/ 
+  
+.hakrsm{  
+    border-radius: 10px;  
+    margin: 10px;  
+    background-color: black;  
+    margin-top: 20px;  
+    width: 80%; 
+    margin-left: 10% 
+}  
+
+p{  
+    font-size: 18px;  
+    text-align: center; 
+    padding: 1% 5% 1% 5%; 
+}  
+
+h3{ 
+    font-size:25px; 
+    text-align: center; 
+}  
+
+@media only screen and (max-width:620px) { 
+  .hakrsm  { 
+    width:80%; 
+    margin-left: 10%; 
+  } 
+} 
+
+/*------KARİYER----*/ 
+
+
+iframe{  
+    width: 98%;  
+    height: 350px;  
+    border-radius: 10px;  
+    margin-top: 20px;  
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);  
+    margin-left: 10px;  
+} 
+
+.section1{  
+    width: 98%;  
+    height: auto;  
+    margin: auto;  
+    margin-top: 10px;  
+    background-color: #f2f2f2;  
+    padding: 10px;  
+}  
+
+@media only screen and (max-width:620px) { 
+  .section { 
+    width:98%;  
+  } 
+} 
+
+.form{  
+    width: 49%;  
+    float: left;  
+    height: 380px;  
+    border: 1px solid #d8d8d8;  
+    padding: 10px;  
+    margin-right: 10px;  
+}  
+
+@media only screen and (max-width:686px) { 
+  .form, .row  { 
+    width:100%; 
+  } 
+} 
+
+.col25{  
+    width: 25%;  
+    float: left;  
+    margin-top: 6px;        
+} 
+
+.col75{  
+    width: 75%;  
+    float: left;  
+    margin-top: 6px;     
+} 
+
+@media only screen and (max-width:620px) { 
+  .col25  { 
+    width:25%;    
+  } 
+} 
+
+  
+
+@media only screen and (max-width:620px) { 
+  .col75  { 
+    width:75%;
+  } 
+} 
+label{  
+    padding:12px 12px 12px 0;  
+    display: inline-block;  
+}  
+
+input[type=text], textarea{  
+    width: 100%;  
+    padding: 12px;  
+    border: 1px solid #ccc;  
+    border-radius: 4px;  
+}  
+
+.row:after{  
+    content: "";  
+    clear: both;  
+    display: block;  
+}  
+
+input[type=submit]{  
+    background-color: #4CAF50;  
+    color: white;  
+    padding: 12px 20px;  
+    border:none;  
+    border-radius: 5px;  
+    float: right;   
+}  
+  
+@media only screen and (max-width:720px) { 
+  input[type=submit] { 
+    padding: 3px; 
+      
+  } 
+} 
+
+.adres{  
+    width: 49%;  
+    float: left;  
+    height: 380px;  
+    border: 1px solid #d8d8d8;  
+    padding: 10px;  
+
+} 
+
+@media only screen and (max-width:686px) { 
+  .adres  { 
+    width:100%;
+      
+  } 
+} 
+
+h2{  
+    text-align: center;  
+} 
+
+.span1{  
+    display: block;  
+    font-family: Calibri;  
+    margin: 10px;  
+    letter-spacing: 1.5px;  
+    text-align: center;  
+    font-size: 16px;  
+    
+}  
+
+/*-------kariyer----*/ 
+
+.mimar{  
+    margin:60px;  
+    text-align: left; 
+    font-size: 35px;  
+    margin-top: 10px; 
+    font-family: Calibri;  
+
+} 
+@media only screen and (max-width:1250px) { 
+  .mimar  { 
+    margin-top: 270px;
+  } 
+} 
+
+  
+.açıklama{  
+    text-align: left;  
+    margin-left: 50px;  
+    display:inline-block;  
+    margin-top: 20px;  
+    font-family: Calibri;  
+}  
+
+.kariy{  
+    font-size: 20px;  
+    margin-left:65px;  
+    margin-right: 40px;  
+    font-family: Calibri; 
+      
+}  
+
+.okul{  
+    text-align: left;  
+    margin-left: 110px;  
+     margin-right: 70px;  
+    font-family: Calibri; 
+}  
+
+@media only screen and (max-width:620px) { 
+  .okul { 
+    width:80%; 
+      margin-left: 20px; 
+      margin-right: 10px; 
+      
+  } 
+} 
+
+.aile{ 
+    text-align: left; 
+    margin-left: 50px; 
+
+} 
+
+@media only screen and (max-width:620px) { 
+  .aile  { 
+    width:80%; 
+    margin: 10px;   
+      
+  } 
+} 
+ 
+.cv{ 
+    text-decoration: none; 
+    color: red; 
+    font-style: italic; 
+} 
+
+.galrsm{ 
+    width: 22%; 
+    height: 200px; 
+    border-radius: 5px; 
+    opacity: 0.8; 
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);  
+    margin: 10px; 
+    transition: all 0.6s; 
+    object-fit: cover; 
+
+}  
+
+@media only screen and (max-width:620px) { 
+  .galrsm  { 
+    width:90%; 
+
+  } 
+} 
+
+.galrsm:hover{ 
+    opacity: 1; 
+    border: 5px solid white; 
+    cursor: pointer;  
+} 
+
+.link:link{ 
+    text-decoration: none; 
+   
+
+} 
+
+/*------menü---*/ 
+
+.bar{ 
+    color: white; 
+ 
+} 
+
+.bar:link{ 
+    text-decoration: none; 
+
+} 
+
+.bar:hover{  
+    opacity: 0.8;  
+
+} 
+
+.uzak{
+    margin-top: 50px;
+}
+
+
+.ek{
+    font-size: 27px;
+    text-align: center;
+    margin-top: 50px;
+    font-style: oblique;
+}
+
+@media only screen and (max-width:620px) { 
+  .ek  {
+      margin-top: 70px;
+ 
+
+  } 
+} 
